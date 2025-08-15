@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+&nbsp;
+
 Welcome! My name is Soorya Veeravalli. I'm a graduate student in Computer Science at the [University of Massachusetts Amherst](https://www.umass.edu), focusing on AI, NLP, and computer vision. I bring 3+ years of industry experience from my time as a Software Engineer 2 at [Microsoft (Azure)](https://azure.microsoft.com), where I worked on building and scaling cloud-based systems.
 
 My research work includes contributions to computer vision during my undergraduate studies, resulting in a publication at WACV, and ongoing projects in natural language processing and computer vision at UMass.

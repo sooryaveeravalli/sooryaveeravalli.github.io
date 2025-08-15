@@ -12,10 +12,10 @@ main:
     url: /publications/
 
   - title: "Experience"
-    url: /experience/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
+    url: /experience/
+
+  - title: "Projects"
+    url: /projects/
         
   - title: "Blog Posts"
     url: /year-archive/
