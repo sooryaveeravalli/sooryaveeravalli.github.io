@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Soorya Veeravalli"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Soorya Veeravalli"
 description              : &description "Welcome! My name is Soorya Veeravalli."
@@ -25,7 +25,7 @@ author:
   avatar           : "Me.jpg"
   name             : "Soorya Veeravalli"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Graduate student at UMass Amherst | Former Microsoft Software Engineer 2 | AI & ML Researcher"
   location         : "Massachusetts"
   employer         : "University of Massachusetts Amherst"
   uri              : # URL
@@ -39,7 +39,7 @@ author:
   impactstory      : # URL
   orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -53,7 +53,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
