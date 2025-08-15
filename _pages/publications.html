@@ -5,32 +5,26 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<!-- Display publications without category headings -->
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Papers I'm Interested In</h2>
+<hr />
+
+<div class="publication-item">
+  <h3>Work in Progress</h3>
+  <p>Currently working on several research projects in the areas of:</p>
+  <ul>
+    <li>Natural Language Processing and Biomedical Informatics</li>
+    <li>Model Interpretability and Explainable AI</li>
+    <li>3D Vision and Computer Vision Applications</li>
+    <li>Generative AI and Large Language Models</li>
+  </ul>
+</div>
 
 
 

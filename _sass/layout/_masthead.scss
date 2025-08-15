@@ -49,6 +49,7 @@
   ul {
     margin: 0;
     padding: 0;
+    padding-left: 2em;
     clear: both;
     list-style-type: none;
   }
@@ -59,6 +60,13 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  margin-right: 1.5em;
+
+  &:hover {
+    opacity: 1;
+  }
 
   &--lg {
     padding-right: 2em;
