@@ -16,15 +16,12 @@ main:
 
   - title: "Projects"
     url: /projects/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
+    
+  - title: "Expertise"
+    url: /expertise/
     
   - title: "CV"
     url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
