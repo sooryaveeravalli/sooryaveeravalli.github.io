@@ -7,37 +7,49 @@ author_profile: true
 
 {% include base_path %}
 
+
 <h2>Software Development</h2>
 <hr />
 
 <div class="experience-item">
-  <h3 style="color: #0066cc;">Microsoft</h3>
-  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">Software Engineer 2 (Azure)</p>
-  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">June 2021 - January 2025</p>
-  <p>Worked in the Azure Cloud division on distributed and scalable services</p>
+  <h3 style="color: #0066cc;">Snowflake</h3>
+  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">Software Engineer Intern (Snowpark Container Service) | Bellevue, WA</p>
+  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">May 2026 - September 2026</p>
   <ul>
-    <li>Drove Azure Native ISV integrations (Datadog, Dynatrace), delivering features like seamless trials, multi-subscription monitoring, and log/metrics integration, contributing to over $100M in annual Azure revenue and 10x log-flow growth.</li>
-    <li>Led end-to-end development and operational excellence across 7 Azure Observability services, ensuring scalability, reliability, and a smooth customer experience for global enterprise workloads.</li>
+    <li>Built AWS Spot support for Snowflake container compute, with preemption handling, on-demand fallback, ICE and savings-plan aware placement.</li>
+    <li>Enabled changing a running compute pool instance type without suspending the pool via rolling replacement during maintenance or on demand.</li>
   </ul>
 </div>
 
-<h2>Machine Learning</h2>
+<div class="experience-item">
+  <h3 style="color: #0066cc;">Microsoft</h3>
+  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">Software Engineer 2 (Azure CoreAI) | Hyderabad, India</p>
+  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">June 2021 - January 2025</p>
+  <p>Built and scaled Azure Native ISV and Observability platform services.</p>
+  <ul>
+    <li>Built and scaled Azure Native Service integrations for Datadog and Dynatrace, supporting continuous growth to over $100 million in annual Azure revenue.</li>
+    <li>Shipped an easy trial for Azure Native ISV partners with seamless log/metrics setup, without impacting existing log forwarding pipelines, increasing user engagement (<a href="https://techcommunity.microsoft.com/blog/partnernews/azure-native-dynatrace-service---free-trial--upgrade/3999711" target="_blank">link</a>).</li>
+    <li>Designed scalable multi-subscription monitoring for Azure Native ISV solutions using a single resource model, cutting cross-subscription setup overhead and driving a 10x increase in log-flow growth.</li>
+    <li>Rearchitectured a shared ISV telemetry pipeline processing 2M+ events daily, using Cosmos streams for low-cost storage and pre-running queries via cron into Azure Kusto for faster dashboard/query load times.</li>
+    <li>Handled 7 services as part of the Observability Platform team's common on-call rotation.</li>
+  </ul>
+</div>
+
+<h2>Machine Learning / Research</h2>
 <hr />
 
 <div class="experience-item">
-  <h3 style="color: #0066cc;">Research Assistant, UMass (BioNLP lab)</h3>
-  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">June 2025 - Present</p>
-  <p>Working on research at the intersection of natural language processing and biomedical informatics with Prof. Hong Yu.</p>
+  <h3 style="color: #0066cc;">Adobe</h3>
+  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">Research Extern | Remote, USA | Preprint under review at ACL 2026</p>
+  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">February 2026 - May 2026</p>
+  <ul>
+    <li>Built a benchmark dataset for attributing answers to text and image evidence in long multimodal documents.</li>
+    <li>Developed a training-free multimodal attribution method using selected MLLM attention heads that outperformed VLM/LLM/RAG baselines at ~7× lower latency (<a href="https://arxiv.org/abs/2607.01420" target="_blank">paper</a>).</li>
+  </ul>
 </div>
 
 <div class="experience-item">
   <h3 style="color: #0066cc;">Research Assistant, IIIT Hyderabad (Computer Vision lab)</h3>
   <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">May 2019 - April 2021</p>
   <p>Conducted research in computer vision, leading to the publication of "GlocalNet: Class-aware Long-term Human Motion Synthesis" at WACV 2021.</p>
-</div>
-
-<div class="experience-item">
-  <h3 style="color: #0066cc;">Teaching Assistant, IIIT Hyderabad (Computer Vision course)</h3>
-  <p style="color: #666; font-size: 0.9em; font-style: italic; margin-bottom: 8px;">January 2021 - April 2021</p>
-  <p>Assisted in teaching computer vision course, helping students with assignments and projects.</p>
 </div>
