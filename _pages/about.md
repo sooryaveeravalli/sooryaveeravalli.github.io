@@ -9,16 +9,16 @@ redirect_from:
 
 &nbsp;
 
-Welcome! My name is Soorya Veeravalli. I'm a graduate student in Computer Science at the [University of Massachusetts Amherst](https://www.umass.edu), focusing on AI, NLP, and computer vision. I bring 3+ years of industry experience from my time as a Software Engineer 2 at [Microsoft (Azure)](https://azure.microsoft.com), where I worked on building and scaling cloud-based systems.
+Welcome! My name is Soorya Veeravalli. I'm a graduate student in Computer Science at the [University of Massachusetts Amherst](https://www.umass.edu) (GPA 3.97/4.0), focusing on AI, NLP, and large-scale cloud systems. I most recently interned as a Software Engineer at [Snowflake](https://www.snowflake.com) (Snowpark Container Service) and as a Research Extern at [Adobe](https://www.adobe.com), where I worked on multimodal attribution for long document QA ([preprint](https://arxiv.org/abs/2607.01420); under review at ACL 2026). Previously, I spent 3+ years as a Software Engineer 2 at [Microsoft (Azure CoreAI)](https://azure.microsoft.com), building and scaling cloud-based observability services.
 
-My research work includes contributions to computer vision during my undergraduate studies, resulting in a publication at WACV, and ongoing projects in natural language processing and computer vision at UMass.
+My research includes a preprint on training-free multimodal attribution for long document QA (under review at ACL 2026), and earlier work in computer vision from my undergraduate studies that led to a publication at WACV.
 
 Previously, I have:
-- Worked in the Azure Cloud division at Microsoft on distributed and scalable services.
+- Built AWS Spot compute and rolling instance-type updates for Snowflake container compute pools.
+- Developed a multimodal attribution benchmark and method at Adobe Research ([MultAttnAttrib](https://arxiv.org/abs/2607.01420)).
+- Worked in Azure CoreAI at Microsoft on distributed, scalable ISV and observability services.
 - Conducted research in computer vision during my undergrad, leading to a peer-reviewed paper ([WACV 2021](https://saisoorya2000.github.io/GlocalNet/)).
 
-Currently, I am working at the UMASS BioNLP lab with [Prof. Hong Yu](https://www.cics.umass.edu/about/directory/hong-yu), focusing on research at the intersection of natural language processing and biomedical informatics.
+**Research Interests:** Multimodal Attribution, Generative AI, Model Interpretability, Cloud Systems, Reinforcement Learning
 
-**Research Interests:** 3D Vision, Decoding strategies for NLP, Model Interpretability, Generative AI, Reinforcement Learning
-
-I'm passionate about bridging academic research and real-world applications, and I'm always open to collaborations on impactful AI projects.
+I'm passionate about bridging academic research and real-world systems, and I'm always open to collaborations on impactful AI and infrastructure projects.

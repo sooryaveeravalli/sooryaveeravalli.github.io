@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Soorya Veeravalli"
-description              : &description "Welcome! My name is Soorya Veeravalli."
+description              : &description "MS CS @ UMass | Snowflake · Adobe Research · Ex-Microsoft SWE-2"
 url                      : https://sooryaveeravalli.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sooryaveeravalli/sooryaveeravalli.github.io"
@@ -25,11 +25,11 @@ author:
   avatar           : "Me.jpg"
   name             : "Soorya Veeravalli"
   pronouns         : # example: "she/her"  
-  bio              : "Graduate student at UMass Amherst | Former Microsoft Software Engineer 2 | AI & ML Researcher"
+  bio              : "MS CS @ UMass | Snowflake · Adobe Research · Ex-Microsoft SWE-2"
   location         : "Massachusetts"
   employer         : "University of Massachusetts Amherst"
   uri              : # URL
-  email            : "sveeravalli@umass.edu" 
+  email            : "veeravallisaisoorya2000@gmail.com" 
 
   # Academic websites
   academia         : # URL
